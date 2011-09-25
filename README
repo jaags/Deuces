@@ -1,5 +1,25 @@
-Deuces README
+Deuces version 1.0 pre-alpha
 
-version 1.0 pre-alpha
+The game is now working, but in a very crude form.
+The next step is to take the code in Deuces.py, and split it 
+between a server and a client app for the players to connect 
+and play with each other.
 
-Game Logic works, requires four players
+==Deuces.py==
+Working game logic, requires four players, passing 
+around the keyboard taking their turn
+UI is text-based
+
+==Deuces_Serv.py==
+The server code, will contain all the game logic,
+receiving the player's commands from the client and
+serving the client the game's state as it changes
+
+==Deuces_txtclient.py==
+The client, displays the UI based on the game's state,
+accepts and sends user commands to the server.
+Text based UI
+
+Thus begins a new era: the day mankind set forth to play Big Two...online
+
+For His/Her Majesty, The Quang of Quangs!
